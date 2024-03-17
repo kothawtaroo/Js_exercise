@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Exercise</title>
+</head>
+<body>
+    <h1 id="head">Hello This is Js Test Page.</h1>
+    <!-- this is inline Js -->
+    <input onclick="alert('Hello World!')" type="Button" value="Click Me">
+    <!-- this is internal Js -->
+    <input onclick="showAlert()" type="button" value="Internal Js">
+    <!-- This is External Js -->
+    <input onclick="nextAlert()" type="button" value="External Js">
+    <p id="para1"></p>
+    <input onclick="showDateTime()" type="button" value="Show Date Time">
+    <input onclick="calculate()" type="button" value="Welcome">
+</body>
+<script>
+    function showAlert(){
+        alert('This is Internal Js')
+    }
+</script>
+<script src="js/script.js"></script>
+</html>
